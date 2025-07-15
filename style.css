@@ -1,4 +1,4 @@
-/* Fonts */
+/* Google Fonts */
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -276,6 +276,7 @@ footer {
     gap: 90px;
     margin-top: 60px;
     font-size: 25px;
+    color: #252432;
 }
 .footer-bar a {
     color: #252432;
