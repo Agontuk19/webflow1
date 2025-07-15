@@ -11,6 +11,9 @@
 }
 
 /* Shared Styles */
+main {
+    background-color: #f5f7ff;
+}
 .text-primary {
     color: #4E47FF;
 }
@@ -68,7 +71,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     gap: 220px;
-    margin: 116px 160px;
+    padding-top: 116px;
+    margin: 0px 160px 116px 160px;
 }
 .action-title h4 {
     font-size: 42px;
@@ -122,4 +126,127 @@ nav {
 .sec1-body, .sec2-body, .sec3-body {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* Review style */
+.review-section {
+    text-align: center;
+    margin: 0px 150px;
+}
+.reviews-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px
+}
+.reviews {
+    display: flex;
+    gap: 20px;
+}
+.review {
+    background-color: white;
+    border: 1px;
+    border-radius: 14px;
+    text-align: left;
+    padding: 24px 24px;
+    margin-bottom: 137px;
+}
+.star {
+    color: #FFB805;
+    font-size: 20px;
+}
+.stars {
+    margin-bottom: 24px;
+}
+.reviewer {
+    display: flex;
+}
+.review-title {
+    font-size: 30px;
+    font-weight: 550;
+    margin: 8px 0px;
+}
+.review-desc {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+.reviewer-photo img{
+    border-radius: 100px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40pxs;
+}
+.reviwer-name {
+    font-size: 15px;
+}
+.review-date {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* Focus Section */
+.focus {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 150px 95px 150px;
+    padding: 71px 150px;
+}
+.focus-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.focus-desc {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.focus-button {
+    background-color: #4E47FF;
+    font-size: 16px;
+    color: white;
+    width: 195px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.focus-img img {
+    border-radius: 48px;
+}
+
+/* Contact Styles */
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin: 0px 150px 5px 150px;
+    padding: 70px 0px 70px 0px;
+}
+.contact-title {
+    font-size: 90px;
+}
+.contact-info label, .contact-info input, .contact-info textarea {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.contact-info input, .contact-info textarea {
+    padding: 0px 15px;
+    width: 497px;
+    height: 70px;
+}
+.contact-info textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.touch-button {
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 510px;
+    height: 70px;
 }
