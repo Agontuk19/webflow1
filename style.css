@@ -225,7 +225,7 @@ nav {
     padding: 70px 0px 70px 0px;
 }
 .contact-title {
-    font-size: 90px;
+    font-size: 70px;
 }
 .contact-info label, .contact-info input, .contact-info textarea {
     display: block;
@@ -243,10 +243,41 @@ nav {
 }
 .touch-button {
     background-color: #4E47FF;
+    color: white;
     border: none;
     border-radius: 10px;
     font-size: 20px;
     margin-top: 10px;
-    width: 510px;
-    height: 70px;
+    width: 530px;
+    height: 65px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 105px 455px;
+    margin-top: 0;
+    text-align: center;
+}
+.footer-logo h3{
+    color: #4E47FF;
+    font-size: 100px;
+    margin: 15px;
+}
+.footer-desc {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: rgba(137, 135, 161, 1);
+}
+.footer-bar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.footer-bar a {
+    color: #252432;
+    text-decoration: none;
 }
